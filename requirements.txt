@@ -1,0 +1,8 @@
+langsmith
+langchain
+langchain-community
+sentence-transformers
+faiss-gpu
+pypdf
+langchain-text-splitters
+langchain_ollama
