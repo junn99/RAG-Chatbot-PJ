@@ -1,0 +1,11 @@
+langsmith
+# langchain # 구식이구나
+langchain-community
+# -U langchain-community
+sentence-transformers
+faiss-gpu
+pypdf
+langchain-text-splitters
+langchain_ollama
+streamlit
+# streamlit --upgrade
