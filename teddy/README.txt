@@ -10,5 +10,8 @@
 5. 패키지 설치 : pip install -r requirements.txt  -> 아니 이거 어떻게 알지?
 
 # 실행
-그 일단 ollama로 gemma2 로컬에 다운받기
-streamlit run app.py 실행 ㄱㄱ
+그 일단 ollama로 gemma2랑 gemma2:2b 로컬에 다운받기 
+-> 일단? 2개의 성능차이가 크게 안느껴짐 -> 로컬에서 할 땐 2b짜리가 훨씬 빨라서 이걸로 사용
+streamlit run app.py 실행 ㄱㄱ = 이거는 메모리 기능 없는 거
+add memory = 메모리만 구현한 거
+streamlit run app2.py 실행 = 메모리 기능 추가 -> 이걸로 하면 됨!
