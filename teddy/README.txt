@@ -15,3 +15,4 @@
 streamlit run app.py 실행 ㄱㄱ = 이거는 메모리 기능 없는 거
 add memory = 메모리만 구현한 거
 streamlit run app2.py 실행 = 메모리 기능 추가 -> 이걸로 하면 됨!
+자세한 설명은 base.py에 주석으로 달아놓음
