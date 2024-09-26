@@ -13,7 +13,7 @@ from langchain_community.document_loaders import UnstructuredFileLoader, Directo
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 
 working_dir = os.path.dirname(os.path.abspath(__file__))
-GROQ_API_KEY = "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"
+GROQ_API_KEY = ""
 
 def setup_vectorstore():
     persist_directory = f"{working_dir}/vector_db_dir"
