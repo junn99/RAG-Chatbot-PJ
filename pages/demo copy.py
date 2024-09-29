@@ -8,8 +8,9 @@ from langchain_community.document_loaders import DirectoryLoader, PDFPlumberLoad
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 import tempfile
 import shutil
-from langchain_pinecone import PineconeVectorStore
 
+from pinecone.grpc import PineconeGRPC as Pinecone
+from pinecone import ServerlessSpec 
 
 # .env 파일의 환경 변수 로드
 load_dotenv()
@@ -75,7 +76,7 @@ if groq_api_key_env and pinecone_api_key and index_name:
     
     #Pinecone 인덱스 & pineconedb 가져오기
     index = pc.Index(index_name)
-    vector_store = PineconeVectorStore(index=index, embedding=embeddings)
+    # vector_store = PineconeVectorStore(index=index, embedding=embeddings)
 
     st.sidebar.success("API 및 인덱스가 성공적으로 설정되었습니다.")
 
